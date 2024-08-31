@@ -5,7 +5,9 @@ int main ()
 {
     setlocale(LC_ALL,"Portuguese");
     
-    printf("Olá, mundo!");
+    int x = 10;
+    
+    x = x + 1; //x++;
       
     return 0;
 }
